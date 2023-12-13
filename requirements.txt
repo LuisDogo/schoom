@@ -1,0 +1,2 @@
+### this document lists all the required dependencies/libraries needed to run the project on other devices
+
