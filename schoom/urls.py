@@ -16,7 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from schoom.views import saludo, despedida, authPage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('dogo/', saludo),
+    path('dogo2/', despedida),
+    path('', authPage, name = 'authentification'),
 ]
