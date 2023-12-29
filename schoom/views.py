@@ -4,10 +4,10 @@ from django.template import Template, Context
 # each function of this file is a view
 
 def saludo(request):
-    return HttpResponse("<hmtl><body><h1>Hello World!</hmtl></body></h1>")
+    return HttpResponse("<hmtl><body><h1>Purueba de Luis Nyanniel Moreno UwUmaría!</hmtl></body></h1>")
 
 def despedida(resquest):
-    return HttpResponse("sayonara")
+    return HttpResponse("sayonara UwU")
 
 def authPage(request):
     doc_externo=open('/home/luisdogo/Desktop/schoom_root/schoom/authPage/test.html')
